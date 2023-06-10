@@ -1,0 +1,13 @@
+{
+	"name": "Node.js",
+	"image": "mcr.microsoft.com/devcontainers/javascript-node:0-20",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"dbaeumer.vscode-eslint",
+				"GitHub.copilot"
+			]
+		}
+	},
+	"postCreateCommand": "npm ci"
+}
