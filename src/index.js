@@ -103,5 +103,5 @@ app.stage.on('pointerup', () => {
     onMouseDown = false;
 });
 
-
+// Add ship to stage
 app.stage.addChild(ship);
