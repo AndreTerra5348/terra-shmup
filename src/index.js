@@ -4,8 +4,8 @@ const app = new PIXI.Application({ background: '#0a0a0a', height: 500, width: 50
 
 document.body.appendChild(app.view);
 
-const ship = PIXI.Sprite.from('/assets/GalagianArtwork/raw/player/ship2.png');
-const bulletTexture = PIXI.Texture.from('/assets/GalagianArtwork/raw/projectiles/shotoval.png');
+const ship = PIXI.Sprite.from('assets/GalagianArtwork/raw/player/ship2.png');
+const bulletTexture = PIXI.Texture.from('assets/GalagianArtwork/raw/projectiles/shotoval.png');
 
 ship.anchor.set(0.5);
 
