@@ -3,13 +3,26 @@
 This will be a simple shoot'em up game made with [PixiJS](https://www.pixijs.com/).
 
 
-# How to develop
+# How to contribute
 
-The easiest way to develop is to use the [Github Codespaces](https://github.com/features/codespaces) feature. This will allow you to develop directly in the browser.
-You can use [VScode Dev Container](https://code.visualstudio.com/docs/remote/containers) and [Docker](https://www.docker.com/) to develop locally.
-Or you can install the dependencies locally and run the project with `npm install` and `npm run start`.
+## Setting up the Environment
 
-# TODO:
+- Cloud based environment:
+    - Click on the green button on the top right of the repository.
+    - You have 60 hours of free usage per month, when using 2 cores and 4GB of RAM. 
+    - For more information [Github Codespaces](https://github.com/features/codespaces)
+- For local containerized environment:
+    - [VScode Dev Container](https://code.visualstudio.com/docs/remote/containers)
+- For non containerized environment:
+    - Install [NodeJS](https://nodejs.org/en/)
+    - `git clone https://github.com/AndreTerra5348/terra-shmup.git`
+    - `npm install` to install the dependencies.
+
+## Development
+
+- `npm run dev` to start the development server.
+
+# Backlog:
 
 - [ ] Add a background that scrolls down infinitely
 - [ ] Add a player and make it move (left, right, up, down) with the keyboard
