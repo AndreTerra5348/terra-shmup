@@ -20,7 +20,7 @@ This will be a simple shoot'em up game made with [PixiJS](https://www.pixijs.com
 
 ## Development
 
-- `npm run dev` to start the development server.
+- `npm run start` to start the development server.
 
 # Backlog:
 
